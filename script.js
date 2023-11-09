@@ -4,8 +4,8 @@ for (let x = 1; x < 5; x++) {
    outputString += "#";
 }
 for(let x = 4; x > 1; x--) {
+    outputString = outputString.substring(0, x-1);
     console.log(outputString);
-    outputString -= "#";
 }
 for(let i = 1; i <= 100; i++) {
     if (i % 3 == 0 && i % 5 ==0) {
