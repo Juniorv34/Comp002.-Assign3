@@ -18,3 +18,12 @@ for(let i = 1; i <= 100; i++) {
         console.log(i)
     }
 }
+let pattern1 = "# # # #"
+let pattern2 = " # # # #"
+for (let i = 1; i <=8; i++) {
+    if (i % 2 == 0) {
+        console.log(pattern1);
+    } else {
+        console.log(pattern2);
+    }
+}
