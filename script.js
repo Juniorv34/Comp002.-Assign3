@@ -2,11 +2,11 @@ let outputString = "#"
 for (let x = 1; x < 5; x++) {
    console.log(outputString);
    outputString += "#";
-}
+};
 for(let x = 4; x > 1; x--) {
     outputString = outputString.substring(0, x-1);
     console.log(outputString);
-}
+};
 for(let i = 1; i <= 100; i++) {
     if (i % 3 == 0 && i % 5 ==0) {
         console.log("FizzBuss");
@@ -17,7 +17,7 @@ for(let i = 1; i <= 100; i++) {
     } else {
         console.log(i)
     }
-}
+};
 let pattern1 = "# # # #"
 let pattern2 = " # # # #"
 for (let i = 1; i <=8; i++) {
@@ -26,4 +26,4 @@ for (let i = 1; i <=8; i++) {
     } else {
         console.log(pattern2);
     }
-}
+};
